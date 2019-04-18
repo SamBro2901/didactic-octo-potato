@@ -1,7 +1,7 @@
 body
 {
     margin: 0 auto;
-    background: #ed0b0b; /* same as mee6.xyz */
+    background: #f22424;
     height: 100vh;
     display: flex;
     flex-flow: column;
@@ -76,7 +76,7 @@ body
 }
 .button-calculate:hover
 {
-    /* Same as mee6.xyz */
+    
     background-color: #a50606;
     color:#FFF;
 }
