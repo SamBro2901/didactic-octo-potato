@@ -137,7 +137,7 @@ body
     text-align: left;
     font-size: 13px;
 
-    color: #ddf4ff;
+    color: #ea4b4b;
     background-color: rgba(0, 140, 186, 0.8);
     transition-duration: 0.5s;
 }
@@ -149,7 +149,7 @@ body
 
 .disclaimer a
 {
-    color: #8ec8e3;
+    color: #ed0b0b;
     text-decoration: none;
 }
 
