@@ -125,6 +125,34 @@ body
     padding: 1em;
 }
 
+.disclaimer
+{
+    border: 2px dotted #fff;
+    position: fixed;
+    display: block;
+    padding: 5px;
+    bottom: 1em;
+    left: 1em;
+
+    text-align: left;
+    font-size: 13px;
+
+    color: #ddf4ff;
+    background-color: rgba(0, 140, 186, 0.8);
+    transition-duration: 0.5s;
+}
+
+.disclaimer:hover
+{
+    opacity: 0.2;
+}
+
+.disclaimer a
+{
+    color: #8ec8e3;
+    text-decoration: none;
+}
+
 @media (max-width: 1250px)
 {
     .disclaimer
