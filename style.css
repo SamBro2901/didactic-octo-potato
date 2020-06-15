@@ -1,8 +1,11 @@
 body
 {
     margin: 0 auto;
-    background: #f22424;
-    height: 100vh;
+    background: url('https://wallpaperaccess.com/full/1470805.jpg');
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     flex-flow: column;
     align-content: center;
