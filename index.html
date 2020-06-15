@@ -10,7 +10,7 @@
 <body>
     <div class="wrapper">
         <header class="titles">
-            <h1 class="title generic-font"><a class="mee6-link" href="https://discord.gg/GVH3Szw">Mirage</a> Level Calculator</h1>
+            <h1 class="title generic-font"><a class="mee6-link">Mirage</a> Level Calculator</h1>
             <h2 class="sub-title generic-font">Calculate messages needed to send <i>(for every minute)</i> in order to reach a level</h2>
         </header>
 
@@ -18,10 +18,11 @@
             <input type="number" class="input-box generic-font" id="current-level" placeholder="Current Level">
             <input type="number" class="input-box generic-font" id="current-xp" placeholder="Current XP">
             <input type="number" class="input-box generic-font" id="desired-level" placeholder="Desired Level">
-            <a class="button-calculate generic-font" onclick="calculate()" href="#result">Calculate</a>
+            <a class="button-calculate generic-font" onclick="calculate()">Calculate</a>
         </div>
 
         <div class="results" id="result">
+            <h2 id="error"></h2>
             <div class="result-main">
                 <h2 class="result-title generic-font">Result: Avg. of <span id="result-average">_</span> messages</h2>
                 <span class="result-sub-title generic-font"> required to send until you reach that level.</span>
@@ -37,13 +38,12 @@
             </div>
         </div>
         <div class="disclaimer">
-            This site is made for the custom level bot <a href="https://discord.gg/GVH3Szw">Mirage</a><br>
-            Feel free to join our <a href="https://discord.gg/GVH3Szw">Discord Server</a><br>
+            <strong>This site is made for the custom level bot <a href="https://discord.gg/GVH3Szw">Mirage</a><br></strong>
+            <strong>Feel free to join our <a href="https://discord.gg/GVH3Szw">Discord Server</a><br></strong>
         </div>
 
     </div>
 
 </body>
 </html>
-
 
