@@ -80,7 +80,7 @@ body
 .button-calculate:hover
 {
     
-    background-color: #a50606;
+    background-color: #e3c600;
     color:#FFF;
 }
 
@@ -141,7 +141,7 @@ body
     font-size: 13px;
 
     color: #ea4b4b;
-    background-color: #c41515;
+    background-color: #e6ce1c;
     transition-duration: 0.5s;
 }
 
