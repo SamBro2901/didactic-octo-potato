@@ -37,12 +37,14 @@ body
 {
     font-size: 68px;
     margin-bottom: 10px;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .sub-title
 {
     margin: 0 0;
     font-size: 26px;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 /* Inputs */
@@ -80,7 +82,7 @@ body
 .button-calculate:hover
 {
     
-    background-color: #e3c600;
+    background-color: #f3cd24;
     color:#FFF;
 }
 
@@ -89,6 +91,7 @@ body
 {
     display: flex;
     flex-flow: column;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .result-main
@@ -96,12 +99,14 @@ body
     margin: 0 0 3em 0;
     display: flex;
     flex-flow: column;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .result-title
 {
     margin: 0 0;
     font-size: 3.2em;
+    text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
 }
 
 .result-sub-title
@@ -124,13 +129,13 @@ body
     width: 35em;
     flex-flow: column;
     text-align: justify;
-    border: 4px dotted #fff;
+    border: 4px solid #fff;
     padding: 1em;
 }
 
 .disclaimer
 {
-    border: 2px dotted #fff;
+    border: 2px solid #fff;
     position: fixed;
     display: block;
     padding: 5px;
@@ -140,20 +145,21 @@ body
     text-align: left;
     font-size: 13px;
 
-    color: #ea4b4b;
-    background-color: #e6ce1c;
+    color: #000000;
+    background-color: #cbc7aa;
     transition-duration: 0.5s;
 }
 
 .disclaimer:hover
 {
-    opacity: 0.2;
+    opacity: 0.8;
 }
 
 .disclaimer a
 {
-    color: #ed0b0b;
+    color: #ffee00;
     text-decoration: none;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000
 }
 
 @media (max-width: 1250px)
