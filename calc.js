@@ -19,7 +19,7 @@ function calculate()
     var avg_messages_needed_to_send = Math.ceil(xp_needed / ((min_xp_gain_per_message + max_xp_gain_per_message) / 2));
     var max_messages_needed_to_send = Math.ceil(xp_needed / min_xp_gain_per_message);
 
-    if(xp_needed<0 || x<0 || n<0 || current_xp<0 || x>n){
+    if(xp_needed<0 || x<0 || n<0 || x>n){
         min_messages_needed_to_send = "_";
         avg_messages_needed_to_send = "_";
         max_messages_needed_to_send = "_";
